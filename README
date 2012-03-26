@@ -1,0 +1,24 @@
+(NCL – Lua Game Framework)
+
+v0.8
+Feature missing :
+-State view control
+-Audio (only lua or c or java)
+-Debug mode
+-TextureAtlas (sprite sheet by tool Texture Packer)
+
+Feature:
+-Tween
+-keyboardSignals control
+-xml reader
+-Render by group
+-Render by buffer list
+-Animation by sprite sheet
+-Animation states
+-Collisions
+-AllButtons configured
+-MultipleInheritance and BaseClass -> OOP for dumb
+-BuildClass for replace 'require' and return new Class Object
+-(athus)TileMap
+-(athus)Text(easy mode)
+-(athus)Media (sound) controll
