@@ -19,4 +19,4 @@ Feature:
 -BuildClass for replace 'require' and return new Class Object
 -(athus)TileMap
 -(athus)Text(easy mode)
--(athus)Media (sound) controll
+-(athus)Media (sound) control
