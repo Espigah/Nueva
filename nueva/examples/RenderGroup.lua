@@ -16,37 +16,37 @@ sprite:setHeightT(181)
 sprite:setWidthF(110)
 sprite:setHeightF(63)
 --==================================================
-local enemie1 = sprite:build();
-local enemie2 = sprite:build();
-local enemie3 = sprite:build();
-local enemie4 = sprite:build();
-local enemie5 = sprite:build();
+local enemy1 = sprite:build();
+local enemy2 = sprite:build();
+local enemy3 = sprite:build();
+local enemy4 = sprite:build();
+local enemy5 = sprite:build();
 --==================================================
-enemie1.name = "enemie1";
-enemie2.name = "enemie2";
-enemie3.name = "enemie3";
-enemie4.name = "enemie4";
-enemie5.name = "enemie5";
+enemy1.name = "enemy1";
+enemy2.name = "enemy2";
+enemy3.name = "enemy3";
+enemy4.name = "enemy4";
+enemy5.name = "enemy5";
 --==================================================
 core.renderingByGroup = true;
 --==================================================
 --@1 nome do grupo
---@2 intervalo de renderização
+--@2 intervalo de renderizaï¿½ï¿½o
 core.render:createGroup ("gupo1",2);
 core.render:createGroup ("gupo2",2);
 --==================================================
 --@1 sprite
 --@2 group name
-core.render:addSpriteInGroup(enemie1,"gupo1");
-core.render:addSpriteInGroup(enemie2,"gupo1");
-core.render:addSpriteInGroup(enemie3,"gupo1");
-core.render:addSpriteInGroup(enemie4,"gupo2");
-core.render:addSpriteInGroup(enemie5,"gupo2");
+core.render:addSpriteInGroup(enemy1,"gupo1");
+core.render:addSpriteInGroup(enemy2,"gupo1");
+core.render:addSpriteInGroup(enemy3,"gupo1");
+core.render:addSpriteInGroup(enemy4,"gupo2");
+core.render:addSpriteInGroup(enemy5,"gupo2");
 --==================================================
 function update()		
-	core:updatePosition(enemie1,{1,0});	
-	core:updatePosition(enemie2,{0,1});	
-	core:updatePosition(enemie5,{1,1});	
+	core:updatePosition(enemy1,{1,0});	
+	core:updatePosition(enemy2,{0,1});	
+	core:updatePosition(enemy5,{1,1});	
 end
 
 core:mainloop(update)
