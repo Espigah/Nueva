@@ -1,5 +1,3 @@
-(NCL – Lua Game Framework)
-
 v0.8
 Feature missing :
 -State view control
